@@ -1,0 +1,30 @@
+{
+  "name": "public-ai-coding-assistant-backend",
+  "version": "1.0.0",
+  "description": "Production-ready backend for a public AI coding assistant using Node.js, Express, Supabase, Render, and Puter AI.",
+  "type": "module",
+  "main": "server.js",
+  "scripts": {
+    "dev": "node server.js",
+    "start": "node server.js",
+    "lint:syntax": "node scripts/syntax-check.js"
+  },
+  "engines": {
+    "node": ">=20.0.0"
+  },
+  "dependencies": {
+    "@supabase/supabase-js": "^2.55.0",
+    "cors": "^2.8.5",
+    "dotenv": "^17.2.1",
+    "express": "^4.21.2",
+    "helmet": "^8.1.0",
+    "jose": "^6.1.0",
+    "morgan": "^1.10.0",
+    "multer": "^2.0.2",
+    "openai": "^4.103.0",
+    "redis": "^4.7.0",
+    "uuid": "^11.1.0",
+    "yauzl": "^3.2.0",
+    "zod": "^4.0.17"
+  }
+}
